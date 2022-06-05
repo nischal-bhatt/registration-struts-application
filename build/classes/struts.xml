@@ -15,6 +15,7 @@
 		<action name="registerAction" class="RegisterAction">
 			<result name="success">/welcome2.jsp</result>
 			<result name="error">/error.jsp</result>
+			<result name="input">/register.jsp</result>
 		</action>
 	</package>
 </struts>

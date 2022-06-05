@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>registration form</title>
+<s:head/>
 </head>
 <body bgcolor="blue">
 <h2>registation form</h2>
