@@ -17,6 +17,8 @@
      <s:textfield name = "age" label = "Age" />
      <s:textfield name = "email" label = "Email" />
      <s:submit value = "Register" />
+     <!--  <s:property value="#user.firstName"/> -->
+     <!--  if user is an object  -->
      
    </s:form>
 
