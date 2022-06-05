@@ -9,6 +9,8 @@ public class RegisterAction {
 	
 	public String execute()
 	{
+		//validation of the request fields
+		// are cross cutting tasks and cannot be put here
 		System.out.println("execute() method called");
 		return "success";
 	}
