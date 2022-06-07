@@ -8,21 +8,23 @@ public class TestInterceptor implements Interceptor{
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
-		System.out.println("destroy");
+		System.out.println("test destroy");
 	}
 
 	@Override
 	public void init() {
 		// TODO Auto-generated method stub
-		System.out.println("init");
+		System.out.println("test init");
 	}
 
 	@Override
 	public String intercept(ActionInvocation ai) throws Exception {
 		// TODO Auto-generated method stub
-		System.out.println("pre processing");
+		System.out.println("test pre processing");
+		
 		String result=ai.invoke();
-		System.out.println("post processing");
+		System.out.println("test post processing");
+		
 		return result;
 	}
 

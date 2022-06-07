@@ -22,9 +22,13 @@
 			<interceptor name="testInterceptor"
 				class="interceptors.TestInterceptor" />
 
+			<interceptor name="ageGroupInterceptor"
+				class="interceptors.AgeGroupInterceptor" />
+
 			<interceptor-stack name="myStack">
 				<interceptor-ref name="defaultStack" />
 				<interceptor-ref name="testInterceptor" />
+				<interceptor-ref name="ageGroupInterceptor" />
 			</interceptor-stack>
 
 		</interceptors>
