@@ -7,7 +7,7 @@
           
              <validator type="requiredstring">
                  <param name = "fieldName">firstName</param>
-                 <message>First name is requiired</message>
+                 <message key="error.firstName.required"/>
              </validator>
              
              <validator type="requiredstring">
