@@ -12,7 +12,7 @@
 <h2>registation form</h2>
    <s:form action = "registerAction">
    
-     <s:textfield name="firstName" label = "First Name"/>
+     <s:textfield key="global.firstName" name="firstName" />
      <s:textfield name="lastName" label = "Last Name"/>
      <s:radio name = "gender" list="{'Male','Female'}" label = "Gender" />
      <s:textfield name = "age" label = "Age" />
@@ -22,6 +22,21 @@
      <!--  if user is an object  -->
      
    </s:form>
+   
+   <s:url action="changeLocaleAction" var="urlEn">
+      <s:param name="request_locale">en</s:param>
+   </s:url>
+   <a href="${urlEn}">English</a>
+   
+   <s:url action="changeLocaleAction" var="urlFr">
+       <s:param name="request_locale">fr</s:param>
+   </s:url>
+   <a href="${ urlFr }">French</a>
+
+   <s:url action="changeLocaleAction" var="urlDe">
+       <s:param name="request_locale">de</s:param>
+   </s:url>
+   <a href="${ urlDe }">German</a>
 
 </body>
 </html>
