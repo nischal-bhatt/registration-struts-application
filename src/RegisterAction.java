@@ -56,12 +56,14 @@ public class RegisterAction extends ActionSupport{
 		this.email = email;
 	}
 	
-	/*
+	
 	public void validate()
 	{
+	    
+	
 		if (firstName.equals(""))
 		{
-			addFieldError("firstName","first name required");
+			addFieldError("firstName",getText("error.firstName.required"));
 		}
 		
 		if (lastName.equals(""))
@@ -90,7 +92,7 @@ public class RegisterAction extends ActionSupport{
 
 		
 	}
-	*/
+	
 	
 	
 }
