@@ -41,6 +41,11 @@
                 <field-validator type="email">
                     <message>mus provide a valid email</message>
                 </field-validator>
+                
+                <field-validator type="domainNameValidator">
+                    <param name="domainName">gmail.com</param>
+                    <message key="error.email.validdomain" />
+                </field-validator>
              </field>
           
           </validators>

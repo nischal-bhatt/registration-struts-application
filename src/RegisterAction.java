@@ -74,7 +74,7 @@ public class RegisterAction extends ActionSupport{
 		
 		if (gender == null)
 		{
-			addFieldError("gender"," gender is required");
+			addFieldError("gender"," gender is required fool");
 		}
 		
 		if (age == null)
